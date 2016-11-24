@@ -1,0 +1,44 @@
+/* http://colorschemedesigner.com/csd-3.5/#0E11Tw0w0w0w0 */
+
+.page {
+  font-family: 'Questrial', sans-serif;
+  width: 600px;
+  margin: 0 auto;
+}
+
+h1 {
+  color: #FF8B00;
+  border-bottom: 3px solid #FF8B00;
+}
+
+.row {
+  margin-bottom: 10px;
+}
+
+.row label {
+  display: inline-block;
+  width: 120px;
+}
+
+.row input, .row select {
+  width: 200px;
+}
+
+.padded-text {
+  margin-top: 30px;
+  border-top: 3px solid #FF8B00;
+  padding: 20px;
+  text-align: center;
+  font-size: 36px;
+  word-wrap: break-word;
+  white-space: pre-wrap;
+}
+
+.padded-text::before {
+  content: "»";
+  color: #FFBF73;
+}
+.padded-text::after {
+  content: "«";
+  color: #FFBF73;
+}
